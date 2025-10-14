@@ -1,0 +1,43 @@
+
+# Data Analytics Practice Notes and Exercises
+
+## Day 1
+
+### 1. Data Types
+- Identify Nominal, Ordinal, Discrete, Continuous, Ratio, Interval in dataset.
+
+### 2. Functions
+1. Find Total Sales per Order (Quantity * Price).
+2. Find Total Sales overall using SUM.
+3. Find Average Quantity per order.
+4. Find Median Quantity.
+5. Find Most frequent product (MODE).
+6. Find Variance and Standard Deviation of Quantity.
+7. Find IQR (Interquartile Range) of Quantity.
+
+### 3. Formulas
+1. Add a column: "Order Type" = Big Order if Quantity > 5 else Small Order.
+2. Count how many orders are from South region.
+3. Filter orders where Sales > 500.
+
+---
+
+## Day 2
+
+### 1. Charts
+1. Bar chart → Total sales per Region.
+2. Pie chart → Sales contribution of each Product.
+3. Histogram → Distribution of Quantities.
+4. Box Plot → Quantity (to detect outliers).
+5. Scatter Plot → Quantity vs Sales.
+6. Line chart → Sales trend across Dates.
+
+### 2. Skewness & Kurtosis
+- Check skewness and kurtosis of Quantity.
+- Interpret results.
+
+### 3. Correlation
+- Check correlation between Quantity and Sales.
+
+### 4. Storytelling with Data (EDA)
+- Write summary (3–5 lines) to explain findings.

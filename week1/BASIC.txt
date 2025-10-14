@@ -1,0 +1,43 @@
+1. Nominal Scale
+Definition: Categories without any order.
+Examples:
+Gender (Male, Female, Other)
+Colors (Red, Blue, Green)
+Types of fruits (Apple, Banana, Mango)
+Key Point: You can name or label the data, but you cannot rank or order them.
+
+
+2. Ordinal Scale
+Definition: Categories with a meaningful order, but the differences between ranks are not measurable.
+Examples:
+Education level (High School < Bachelor's < Master's < PhD)
+Customer satisfaction (Poor < Fair < Good < Excellent)
+Key Point: You can rank the data, but you cannot quantify the difference between ranks.
+
+3. Discrete Data
+Definition: Countable data, often whole numbers.
+Examples:
+Number of students in a class
+Number of cars in a parking lot
+Number of bugs in a software module
+Key Point: These are quantitative values that can be counted, not measured.
+
+4. Continuous Data
+Definition: Measurable data that can take any value within a range.
+Examples:
+Height, weight, temperature, time
+CPU usage percentage
+Key Point: These are quantitative values that can be measured, and they can include fractions or decimals.
+Types of Continuous Data:
+a. Interval Scale
+Definition: Ordered data with equal intervals, but no true zero.
+Examples:
+Temperature in Celsius or Fahrenheit
+Dates (e.g., years like 1990, 2000)
+Key Point: You can add and subtract, but ratios are meaningless (e.g., 20°C is not "twice as hot" as 10°C).
+b. Ratio Scale
+Definition: Ordered data with equal intervals and a true zero.
+Examples:
+Height, weight, age, income
+Time duration
+Key Point: You can do all arithmetic operations, including meaningful ratios (e.g., 20 kg is twice as heavy as 10 kg).

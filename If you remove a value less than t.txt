@@ -1,0 +1,12 @@
+•	If you remove a value less than the mean, the mean increases.
+•	If you remove a value greater than the mean, the mean decreases.
+•	If you remove a value equal to the mean, the mean stays the same.
+	
+
+
+=SORT(FILTER(F2:F769,F2:F769<>0))  with 0 sorting
+=INDEX(SORT(FILTER(F2:F768, F2:F768<>0), 1, -1), 1)  getting max values after removing 0
+=INDEX(SORT(FILTER(F2:F768,F2:F768<>0),1,1),1)  getting mIN values after removing 0
+=SORT(A2:F11, F2:F11, False)
+
+=INDEX(A2:A11,MATCH(MAX(F2:F11),F2:F11,0))

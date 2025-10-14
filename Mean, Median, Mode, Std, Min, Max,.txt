@@ -1,0 +1,35 @@
+Mean, Median, Mode, Std, Min, Max, Range →
+Apply on numeric columns (Pregnancies, Glucose, Blood Pressure, Skin Thickness, Insulin, BMI, Diabetes Pedigree Function, Age).
+
+Correlation →
+Works only between numeric features.
+Example: Glucose ↔ BMI, Age ↔ Pregnancies, etc.
+✅ Don’t use it on categorical columns (like Outcome), unless you want to check relationship with numeric features.
+
+if [TotalAmount] >= 5000 then "Gold" else if [TotalAmount] >= 2000 then "Silver" else "Bronze"
+
+
+if [TotalAmount] >= 5000 then "Gold" else if [TotalAmount] >= 2000 then "Silver" else "Bronze"
+
+
+Cardinalityﾠ
+
+one to oneﾠ:one row matches only one row in the other table
+
+one to manyﾠ:one row matches many rows in the other table
+
+many to oneﾠ:many rows match one row in the other table
+
+
+
+
+many to manyﾠ:many rows match many rows in the other table
+
+https://learn.microsoft.com/en-us/dax/new-dax-functions
+
+
+
+https://docs.google.com/spreadsheets/d/107NaOOSpiLqMhDqsKiignEkc9stjFRWR/edit?usp=sharing&ouid=114178635653940933156&rtpof=true&sd=true
+
+DateTable = CALENDAR(MIN(SalesTransactions[OrderDate]),MAX(SalesTransactions[OrderDate]))
+DateTable = CALENDAR(DATE(2022,1,1),DATE(2024,12,31))

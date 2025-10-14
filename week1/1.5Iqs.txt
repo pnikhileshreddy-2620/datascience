@@ -1,0 +1,53 @@
+Got it 👍 Let’s break this down in **simple steps**.
+
+The **1.5 × IQR rule** is a common way to detect **outliers** in data.
+
+---
+
+### Steps to Identify Outliers (1.5 × IQR rule)
+
+1. **Arrange the data** in ascending order.
+
+2. **Find Q1 and Q3**:
+
+   * **Q1 (25th percentile)** → the value below which 25% of the data falls.
+   * **Q3 (75th percentile)** → the value below which 75% of the data falls.
+
+3. **Calculate IQR**:
+
+   $$
+   IQR = Q3 - Q1
+   $$
+
+4. **Find the lower and upper bounds**:
+
+   * **Lower Bound** = Q1 – (1.5 × IQR)
+   * **Upper Bound** = Q3 + (1.5 × IQR)
+
+5. **Identify outliers**:
+
+   * Any data value **< Lower Bound** is an outlier.
+   * Any data value **> Upper Bound** is an outlier.
+
+---
+
+### Example
+
+Suppose we have this dataset:
+
+$$
+[2, 4, 5, 7, 8, 10, 15, 18, 25]
+$$
+
+1. Ordered data (already sorted).
+2. **Q1 = 5**, **Q3 = 15**.
+3. **IQR = 15 – 5 = 10**.
+4. **Lower Bound = 5 – (1.5 × 10) = 5 – 15 = -10**
+   **Upper Bound = 15 + (1.5 × 10) = 15 + 15 = 30**
+5. Outliers = Values < -10 or > 30.
+   → In this dataset, **no outliers**.
+
+---
+
+👉 If you give me a dataset, I can calculate the outliers step by step for you.
+Do you want me to show you how to do this in **Python code** too?
